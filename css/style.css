@@ -1,0 +1,620 @@
+/* =========================================
+   GENERAL SETTINGS
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #111510;
+    color: #e8eee5;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.site-header {
+    background-color: #18221a;
+    border-bottom: 5px solid #4f8f3a;
+    min-height: 230px;
+    padding: 30px 8%;
+    box-shadow: 0 6px 0 #0a0d0a;
+}
+
+.header-content {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header-text {
+    float: left;
+    width: 70%;
+    padding-top: 30px;
+}
+
+.minecraft-character {
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+
+.minecraft-character img {
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.site-header h1 {
+    margin: 5px 0;
+    font-size: 42px;
+    color: #8bc34a;
+    letter-spacing: 2px;
+}
+
+.header-tag {
+    margin: 0;
+    color: #78a85a;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.header-subtitle {
+    margin-top: 8px;
+    color: #c5d6bd;
+    font-size: 17px;
+}
+
+.header-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* =========================================
+   OTHER PAGE HEADERS
+========================================= */
+
+.page-header {
+    background-color: #172018;
+
+    text-align: center;
+
+    padding: 55px 20px;
+
+    border-bottom: 4px solid #55a630;
+}
+
+.page-header h1 {
+    margin: 8px 0;
+
+    font-size: 40px;
+
+    letter-spacing: 4px;
+}
+
+
+/* =========================================
+   LABELS
+========================================= */
+
+.section-label {
+    color: #70c445;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 10px;
+}
+
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+.navbar {
+    background-color: #090c09;
+
+    border-bottom: 1px solid #303830;
+
+    padding: 0;
+}
+
+.nav-container {
+    text-align: center;
+}
+
+.nav-container a {
+    display: inline-block;
+
+    color: #d9e2d4;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+    padding: 18px 24px;
+
+    letter-spacing: 1px;
+}
+
+.nav-container a:hover {
+    background-color: #55a630;
+
+    color: #ffffff;
+}
+
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+main {
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding: 50px 25px;
+}
+
+
+/* =========================================
+   HERO SECTION
+========================================= */
+
+.hero-section {
+    background-color: #1a211b;
+
+    border: 1px solid #354235;
+
+    padding: 40px;
+
+    margin-bottom: 35px;
+
+    box-shadow: 8px 8px 0 #080a08;
+}
+
+
+/*
+    FLOAT USED HERE
+*/
+
+.hero-image {
+    float: left;
+
+    width: 30%;
+
+    margin-right: 40px;
+}
+
+.hero-image img {
+    width: 100%;
+
+    border: 5px solid #354235;
+
+    display: block;
+}
+
+.hero-text {
+    width: 65%;
+
+    float: left;
+}
+
+.hero-text h2 {
+    font-size: 35px;
+
+    color: #b5d89a;
+
+    margin-top: 5px;
+}
+
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.minecraft-button {
+    display: inline-block;
+
+    background-color: #4f9b2f;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    padding: 12px 22px;
+
+    margin-top: 15px;
+
+    border: 2px solid #78c850;
+
+    box-shadow: 4px 4px 0 #263d1e;
+}
+
+.minecraft-button:hover {
+    background-color: #66b83f;
+}
+
+
+/* =========================================
+   CONTENT SECTION
+========================================= */
+
+.content-section {
+    background-color: #1a211b;
+
+    border: 1px solid #354235;
+
+    padding: 40px;
+
+    margin-bottom: 35px;
+}
+
+.content-section h2 {
+    color: #b5d89a;
+}
+
+
+/* =========================================
+   STATS
+========================================= */
+
+.stats-section {
+    margin-bottom: 30px;
+}
+
+.stat-box {
+    float: left;
+
+    width: 23%;
+
+    margin-right: 2.66%;
+
+    padding: 25px 15px;
+
+    text-align: center;
+
+    background-color: #182018;
+
+    border: 1px solid #354235;
+}
+
+.stat-box:last-child {
+    margin-right: 0;
+}
+
+.stat-box h3 {
+    color: #73c64a;
+
+    font-size: 30px;
+
+    margin: 0;
+}
+
+.stat-box p {
+    font-size: 12px;
+
+    letter-spacing: 1px;
+
+    color: #c4d0bf;
+}
+
+
+/* =========================================
+   HOBBIES
+========================================= */
+
+.hobby-card {
+    float: left;
+
+    width: 48%;
+
+    margin: 1%;
+
+    padding: 30px;
+
+    min-height: 230px;
+
+    background-color: #182018;
+
+    border: 1px solid #3a4b38;
+
+    box-shadow: 5px 5px 0 #080a08;
+}
+
+.hobby-card h2 {
+    color: #a9d68d;
+}
+
+.block-icon {
+    display: inline-block;
+
+    background-color: #355e27;
+
+    color: #dff5d2;
+
+    padding: 6px 10px;
+
+    font-weight: bold;
+
+    font-size: 12px;
+}
+
+
+/* =========================================
+   SKILLS
+========================================= */
+
+.skill-box {
+    float: left;
+
+    width: 48%;
+
+    margin: 1%;
+
+    padding: 30px;
+
+    background-color: #182018;
+
+    border: 1px solid #3a4b38;
+}
+
+.skill-box h2 {
+    color: #a9d68d;
+
+    border-bottom: 1px solid #3a4b38;
+
+    padding-bottom: 10px;
+}
+
+.skill-box ul {
+    padding-left: 20px;
+}
+
+.skill-box li {
+    margin: 8px 0;
+}
+
+
+/* =========================================
+   GALLERY
+========================================= */
+
+.gallery-section {
+    background-color: #151b16;
+
+    padding: 25px;
+
+    border: 1px solid #354235;
+}
+
+
+/*
+    FLOAT USED FOR GALLERY
+*/
+
+.gallery-item {
+    float: left;
+
+    width: 31.33%;
+
+    margin: 1%;
+
+    background-color: #1c241d;
+
+    border: 1px solid #3a4b38;
+
+    padding: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+
+    height: 230px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+.gallery-item figcaption {
+    text-align: center;
+
+    padding: 14px 5px 8px;
+
+    font-size: 14px;
+
+    color: #c8d6c2;
+}
+
+
+/* =========================================
+   CONTACT
+========================================= */
+
+.contact-section {
+    max-width: 800px;
+
+    margin: auto;
+}
+
+.contact-card {
+    background-color: #182018;
+
+    border: 1px solid #3a4b38;
+
+    padding: 40px;
+
+    box-shadow: 7px 7px 0 #080a08;
+}
+
+.contact-card h2 {
+    color: #b5d89a;
+}
+
+.contact-item {
+    float: left;
+
+    width: 48%;
+
+    margin: 1%;
+
+    padding: 18px;
+
+    background-color: #111610;
+
+    border-left: 4px solid #55a630;
+}
+
+.contact-label {
+    color: #76c94d;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+.contact-item p {
+    margin: 5px 0 0;
+}
+
+.contact-item a {
+    color: #a6d98a;
+
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: white;
+}
+
+
+/* =========================================
+   CLEAR PROPERTY
+========================================= */
+
+/*
+    clear fixes the layout after floated elements.
+*/
+
+.clear {
+    clear: both;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    background-color: #090c09;
+
+    border-top: 1px solid #303830;
+
+    text-align: center;
+
+    padding: 30px;
+
+    color: #aab5a5;
+}
+
+.footer-small {
+    font-size: 12px;
+
+    color: #64705f;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media screen and (max-width: 800px) {
+
+    .hero-image,
+    .hero-text {
+        float: none;
+
+        width: 100%;
+
+        margin: 0;
+    }
+
+    .hero-image {
+        margin-bottom: 25px;
+    }
+
+    .stat-box {
+        width: 48%;
+
+        margin: 1%;
+    }
+
+    .hobby-card,
+    .skill-box {
+        width: 100%;
+
+        margin: 10px 0;
+    }
+
+    .gallery-item {
+        width: 48%;
+    }
+
+    .contact-item {
+        width: 100%;
+
+        margin: 8px 0;
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .site-header h1 {
+        font-size: 32px;
+    }
+
+    .page-header h1 {
+        font-size: 28px;
+    }
+
+    .nav-container a {
+        padding: 12px 8px;
+
+        font-size: 11px;
+    }
+
+    .stat-box {
+        width: 100%;
+
+        margin: 8px 0;
+    }
+
+    .gallery-item {
+        width: 100%;
+
+        margin: 10px 0;
+    }
+
+}
